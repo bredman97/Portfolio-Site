@@ -3,15 +3,15 @@ import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 export default function Header() {
     return (
 
-        <header className='flex p-6 justify-between shadow-sm shadow-black'>
+        <header className='flex md:p-6 justify-between shadow-sm shadow-black'>
             <Menu>
-                <MenuButton className="hover:bg-sky-300 hover:animate-pulse rounded-full data-[open]:bg-sky-300">
+                <MenuButton className="hover:bg-sky-300 hover:animate-pulse rounded-full data-[open]:bg-sky-300 focus:border-transparent focus:ring-0">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
                     </svg>
                 </MenuButton>
 
-                <MenuItems anchor='bottom' className='w-32 ml-6 mt-4 rounded-lg border-white text-lg bg-gradient-to-b from-white to-sky-300'>
+                <MenuItems anchor='bottom' className='w-32 ml-6 mt-4 rounded-lg border-white text-lg bg-gradient-to-b from-white to-sky-300 focus:border-transparent focus:ring-0'>
                     <MenuItem>
                         <Link to='/' className="inline-flex gap-1 items-center data-[focus]:bg-sky-200">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">

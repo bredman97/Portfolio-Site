@@ -3,7 +3,7 @@ import pic from '../assets/BrandonProPic.JPG';
 export default function AboutPage () {
     return (
 
-      <div className='min-h-screen max-w-full grid grid-cols-2'>
+      <div className='min-h-screen max-w-full grid grid-rows-2 md:grid-cols-2'>
 
         <div className='flex flex-col p-5 gap-3'>
           <p className='text-5xl mb-4 '>Get To Know Me</p>
@@ -34,7 +34,7 @@ export default function AboutPage () {
       
       
         <div className='relative'>
-          <img className='absolute w-56 md:w-80 lg:w-4/12 mt-5 right-5 shadow-2xl shadow-black rounded-full' src={pic} alt='Brandon Redman'/>
+          <img className='absolute w-56 md:w-80 lg:w-8/12 mt-5 right-28 md:right-5 shadow-2xl shadow-black rounded-full' src={pic} alt='Brandon Redman'/>
         </div>
 
 

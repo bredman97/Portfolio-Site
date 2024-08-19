@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="flex p-8 gap-2 justify-between shadow-inner shadow-black">
+        <footer className="flex p-6 gap-2 justify-between shadow-inner shadow-black">
             
             <a href="https://www.linkedin.com/in/brandon-redman-209732232/" target='_blank' rel="noopener noreferrer"  className="inline-flex items-center">LinkedIn
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 24 24">
