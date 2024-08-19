@@ -6,13 +6,13 @@ export default function IndexPage() {
 
     return (
         
-        <div className="flex w-full min-h-screen">
+        <div className="flex w-screen min-h-screen">
             <div className="flex flex-col items-center justify-center mx-auto">
-                <p className="text-6xl md:text-8xl pb-5">Brandon Redman</p>
-                <p className="text-xl md:text-2xl font-light italic">Aspiring Network & CyberSecurity Engineer</p>
-                <p className="text-2xl md:text-4xl font-semibold">Bachelors of IT - Networking & IT Security</p>
-                <p className="text-xl md:text-2xl font-light italic">3rd Year Student @ Ontario Tech University</p>
-                <p className="text-2xl md:text-4xl font-semibold">CCNA Routing & Switching</p>
+                <p className="text-5xl pb-3 md:text-8xl md:pb-5">Brandon Redman</p>
+                <p className="text-md md:text-2xl font-light italic">Aspiring Network & CyberSecurity Engineer</p>
+                <p className="text-xl md:text-4xl font-semibold">Bachelors of IT - Networking & IT Security</p>
+                <p className="text-md md:text-2xl font-light italic">3rd Year Student @ Ontario Tech University</p>
+                <p className="text-xl md:text-4xl font-semibold">CCNA Routing & Switching</p>
                 <img className='pt-5 ' src={certpic} alt='ccna cert' />
                 
                 <Link to='./B.RedmanResume.pdf' target='_blank' download className='inline-flex items-center gap-1 mt-5 text-lg rounded-md shadow-md shadow-black hover:bg-sky-300 hover:animate-pulse'>

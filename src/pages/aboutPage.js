@@ -34,7 +34,7 @@ export default function AboutPage () {
       
       
         <div className='relative'>
-          <img className='absolute w-56 md:w-80 lg:w-8/12 mt-5 right-28 md:right-5 shadow-2xl shadow-black rounded-full' src={pic} alt='Brandon Redman'/>
+          <img className='absolute w-56 md:w-80 lg:w-8/12 mt-5 right-20 md:right-5 shadow-2xl shadow-black rounded-full' src={pic} alt='Brandon Redman'/>
         </div>
 
 
