@@ -16,7 +16,7 @@ export default function IndexPage() {
                 <img className='pt-5 ' src={certpic} alt='ccna cert' />
                 
                 
-                <Link to='./B.RedmanResume.pdf' target='_blank' download className='inline-flex items-center gap-1 mt-5 text-lg rounded-md shadow-md shadow-black bg-blue-600 hover:bg-amber-500 hover:animate-pulse'>
+                <Link to='./B.RedmanResume.pdf' target='_blank' download className='inline-flex items-center gap-1 mt-5 text-lg rounded-md shadow-md shadow-white bg-blue-600 hover:bg-amber-500 hover:animate-pulse'>
                   Resume
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
                     <path d="M8.75 2.75a.75.75 0 0 0-1.5 0v5.69L5.03 6.22a.75.75 0 0 0-1.06 1.06l3.5 3.5a.75.75 0 0 0 1.06 0l3.5-3.5a.75.75 0 0 0-1.06-1.06L8.75 8.44V2.75Z" />
