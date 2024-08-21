@@ -14,7 +14,7 @@ export default function ExperiencePage() {
             </p>
             <p className="italic font-light">DHL Express, Hamilton, Bermuda</p>
 
-            <ul className="list-inside list-disc font-light italic">
+            <ul className="mb-3 list-inside list-disc font-light italic">
                 <li>Face to face interaction with customers.</li>
                 <li>Overcame daily logistical challenges.</li>
                 <li>Provided customer support via phone and email.</li>
@@ -47,7 +47,7 @@ export default function ExperiencePage() {
                 <p className="italic font-medium">July 2024 - Present</p>
             </p>
 
-            <ul className="list-inside list-disc font-light italic">
+            <ul className="mb-3 list-inside list-disc font-light italic">
                 <li>Designed and coded a web portfolio/resume using HTML, Emailjs, React.js, JavaScript and Tailwind CSS.</li>
                 <li>Responsive Design with appealing visuals and content.</li>
                 <li>Learned in depth knowledge of JavaScript, React framework, Tailwind CSS and overall frontend developing.</li>
@@ -57,7 +57,7 @@ export default function ExperiencePage() {
                 <p className="italic font-medium">March 2024 - April 2024</p>
             </p>
 
-            <ul className="list-inside list-disc font-light italic ">
+            <ul className="mb-3 list-inside list-disc font-light italic ">
                 <li>Configured a network with Cisco routers acting as sites and switches using Professors topology guide and instructions.</li>
                 <li>Configured Spanning-Tree, VTP, HSRPv2, MPLS, DMVPN Phase 3, Eigrp Routing and NTP Servers.</li>
             </ul>

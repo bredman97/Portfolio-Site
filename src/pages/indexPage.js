@@ -1,6 +1,5 @@
 import certpic from '../assets/ccna_med.jpg';
 import { Link } from 'react-router-dom';
-import pic from '../assets/BrandonProPic.JPG';
 
 
 export default function IndexPage() {
@@ -9,7 +8,6 @@ export default function IndexPage() {
         
         <div className="flex h-screen">
             <div className="flex flex-col items-center justify-center mx-auto">
-                <img className='absolute top-12 w-40 h-40 md:w-48 md:h-48 md:top-24 shadow-lg shadow-blue-600 rounded-full' src={pic} alt='Brandon Redman'/>
                 <p className="text-5xl pb-3 md:text-8xl md:pb-5">Brandon Redman</p>
                 <p className="text-md md:text-2xl font-light italic">Aspiring Network & CyberSecurity Engineer</p>
                 <p className="text-xl md:text-4xl font-semibold">Bachelors of IT - Networking & IT Security</p>
