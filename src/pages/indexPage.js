@@ -1,13 +1,15 @@
 import certpic from '../assets/ccna_med.jpg';
 import { Link } from 'react-router-dom';
+import pic from '../assets/BrandonProPic.JPG';
 
 
 export default function IndexPage() {
 
     return (
         
-        <div className="flex w-screen min-h-screen">
+        <div className="flex h-screen">
             <div className="flex flex-col items-center justify-center mx-auto">
+                <img className='absolute top-12 w-40 h-40 md:w-48 md:h-48 md:top-24 shadow-lg shadow-blue-600 rounded-full' src={pic} alt='Brandon Redman'/>
                 <p className="text-5xl pb-3 md:text-8xl md:pb-5">Brandon Redman</p>
                 <p className="text-md md:text-2xl font-light italic">Aspiring Network & CyberSecurity Engineer</p>
                 <p className="text-xl md:text-4xl font-semibold">Bachelors of IT - Networking & IT Security</p>
@@ -15,7 +17,8 @@ export default function IndexPage() {
                 <p className="text-xl md:text-4xl font-semibold">CCNA Routing & Switching</p>
                 <img className='pt-5 ' src={certpic} alt='ccna cert' />
                 
-                <Link to='./B.RedmanResume.pdf' target='_blank' download className='inline-flex items-center gap-1 mt-5 text-lg rounded-md shadow-md shadow-black hover:bg-sky-300 hover:animate-pulse'>
+                
+                <Link to='./B.RedmanResume.pdf' target='_blank' download className='inline-flex items-center gap-1 mt-5 text-lg rounded-md shadow-md shadow-black bg-blue-600 hover:bg-amber-500 hover:animate-pulse'>
                   Resume
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
                     <path d="M8.75 2.75a.75.75 0 0 0-1.5 0v5.69L5.03 6.22a.75.75 0 0 0-1.06 1.06l3.5 3.5a.75.75 0 0 0 1.06 0l3.5-3.5a.75.75 0 0 0-1.06-1.06L8.75 8.44V2.75Z" />

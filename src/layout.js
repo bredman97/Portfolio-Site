@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 export default function Layout() {
     return(
-        <div className="bg-gradient-to-br from-white to-sky-300 min-h-screen">
+        <div className="text-white bg-bgMain bg-cover min-h-screen">
             <Header />
             <Outlet />
             <Footer />

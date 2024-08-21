@@ -5,7 +5,7 @@ export default function EducationPage() {
         <div className='flex flex-col p-5 gap-3'>
           <p className='text-5xl mb-4 '>Qualifications</p>
           <p className='text-2xl italic border-0 border-b-2 border-black'>Education</p>
-          <p className='rounded-md shadow-md shadow-black'>
+          <p className='ps-2 rounded-md shadow-md shadow-blue-600'>
             
             <p className="font-medium text-lg">Bachelor of Information Technology – Networking and IT Security</p>
             <p className="italic font-light">Ontario Tech University, Oshawa, ON</p>
@@ -18,14 +18,14 @@ export default function EducationPage() {
           </p>
 
           <p className='text-2xl italic border-0 border-b-2 border-black'>Certifications</p>
-          <p className='rounded-md shadow-md shadow-black'>
+          <p className='ps-2 rounded-md shadow-md shadow-blue-600'>
             <p className="font-medium text-lg">Cisco Certified Network Associate</p>
             <p className="italic font-light">Toronto, ON</p>
             <p className="italic font-light">July 2024 - July 2027</p>
           </p>
 
           <p className='text-2xl italic border-0 border-b-2 border-black'>Skills</p>
-          <p className='rounded-md shadow-md shadow-black'>
+          <p className='ps-2 rounded-md shadow-md shadow-blue-600'>
             <p className="font-medium text-lg">Cisco - CCNA Routing and Switching</p>
             <p className="font-medium text-lg">TCP/IP Networking</p>
             <p className="font-medium text-lg">Routing Protocols - OSPF, EIGRP, BGP, MPLS</p>

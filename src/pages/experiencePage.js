@@ -7,10 +7,10 @@ export default function ExperiencePage() {
         <div className='flex flex-col p-5 gap-3'>
           <p className='text-5xl mb-4 '>Experience</p>
           <p className='text-2xl italic border-0 border-b-2 border-black'>Work</p>
-          <p className='rounded-md shadow-md shadow-black'>
+          <p className='ps-2 pe-2 rounded-md shadow-md shadow-blue-600'>
             
             <p className="flex font-medium text-lg justify-between">Customer Service Representative
-                <p className="italic font-light">May 2022 – August 2022</p>
+                <p className="italic font-medium">May 2022 – August 2022</p>
             </p>
             <p className="italic font-light">DHL Express, Hamilton, Bermuda</p>
 
@@ -23,7 +23,7 @@ export default function ExperiencePage() {
             </ul>
 
             <p className="flex font-medium text-lg justify-between">Information Technology Help Desk Support
-                <p className="italic font-light">Sept 2020 – Sept 2021</p>
+                <p className="italic font-medium">Sept 2020 – Sept 2021</p>
             </p>
             <p className="italic font-light">The Bermuda College, Paget, Bermuda</p>
 
@@ -41,10 +41,10 @@ export default function ExperiencePage() {
           </p>
 
           <p className='text-2xl italic border-0 border-b-2 border-black'>Projects</p>
-          <p className='rounded-md shadow-md shadow-black'>
+          <p className='ps-2 pe-2 rounded-md shadow-md shadow-blue-600'>
 
             <p className="flex font-medium text-lg justify-between">Web Portfolio
-                <p className="italic font-light">July 2024 - Present</p>
+                <p className="italic font-medium">July 2024 - Present</p>
             </p>
 
             <ul className="list-inside list-disc font-light italic">
@@ -54,7 +54,7 @@ export default function ExperiencePage() {
             </ul>
 
             <p className="flex font-medium text-lg justify-between">Networking II Case Study
-                <p className="italic font-light">March 2024 - April 2024</p>
+                <p className="italic font-medium">March 2024 - April 2024</p>
             </p>
 
             <ul className="list-inside list-disc font-light italic ">
@@ -63,7 +63,7 @@ export default function ExperiencePage() {
             </ul>
 
             <p className="flex font-medium text-lg justify-between">Networking I Case Study
-                <p className="italic font-light">November 2023 - December 2023</p>
+                <p className="italic font-medium">November 2023 - December 2023</p>
             </p>
 
             <ul className="list-inside list-disc font-light italic text-balance">
