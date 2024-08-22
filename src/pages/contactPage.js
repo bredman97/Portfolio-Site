@@ -55,9 +55,9 @@ export default function ContactPage() {
             
             
             <div><ToastContainer /></div>
-
-            <p className="text-center mt-48 text-5xl">Contact Me</p>
-        
+            <div className='flex flex-col items-center mx-auto'>
+                <p className="text-center rounded-md bg-gradient-to-tl from-blue-900 mt-48 text-5xl">Contact Me</p>
+            </div>
             <form onSubmit={handleSubmit} class="max-w-sm md:max-w-md mx-auto mt-10 p-4 pt-16 rounded-3xl bg-white shadow-inner shadow-black">
                 <div className="relative z-0 mb-12 w-full group">
                     <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="block w-full text-sm text-black bg-transparent border-0 border-b-2 border-black appearance-none focus:ring-0 focus:outline-none peer" placeholder=" " required/>

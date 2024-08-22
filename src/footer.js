@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="flex text-white bg-blue-600 p-6 gap-2 justify-between shadow-inner shadow-black">
+        <footer className="flex text-white bg-blue-900 p-6 gap-2 justify-between shadow-inner shadow-amber-500">
             
             
 

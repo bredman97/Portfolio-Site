@@ -12,7 +12,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bgMain' : "url('./assets/serverroom2.jpg')",
+        'bgMain' : "url('./assets/server.png')",
       },
     },
   },

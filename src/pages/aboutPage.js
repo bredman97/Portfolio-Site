@@ -13,17 +13,17 @@ export default function AboutPage () {
       <div className='min-h-screen md:h-screen max-w-full grid grid-rows-2 md:grid-cols-2'>
 
         <div className='flex flex-col p-5 gap-3'>
-          <p className='text-5xl mb-4 '>Get To Know Me</p>
-          <p className='text-2xl italic border-0 border-b-2 border-black'>Background</p>
-          <p className='ps-2 rounded-md shadow-md shadow-blue-600'>
+          <p className='text-5xl rounded-md bg-gradient-to-tl from-blue-900 mr-auto mb-4 '>Get To Know Me</p>
+          <p className='text-2xl italic border-0 border-b-2 border-amber-500'>Background</p>
+          <p className='ps-2 bg-blue-900 bg-opacity-85 rounded-md shadow-md shadow-white'>
             Born and raised in Bermuda with roots and family in The Bahamas.
             I enjoy watching sports, mainly football/soccer, 
             playing games and puzzles. I like to stay busy whether that is 
             traveling, reading, learning something new or enjoying 
             the company of friends and family.
           </p>
-          <p className='text-2xl italic border-0 border-b-2 border-black'>Summary</p>
-          <p className='ps-2 rounded-md shadow-md shadow-blue-600'>
+          <p className='text-2xl italic border-0 border-b-2 border-amber-500'>Summary</p>
+          <p className='ps-2 bg-blue-900 bg-opacity-85 rounded-md shadow-md shadow-white'>
             Hardworking and detail-oriented IT
             Networking and Information Security
             student. Skilled in customer service, complex problem-solving, analytical thinking, hardware and software

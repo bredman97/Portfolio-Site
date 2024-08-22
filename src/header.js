@@ -3,7 +3,7 @@ import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 export default function Header() {
     return (
 
-        <header className='flex text-white bg-blue-600 overflow-x-scroll scroll-smooth md:overflow-hidden md:p-6 justify-between shadow-sm shadow-black'>
+        <header className='flex text-white bg-blue-900 overflow-x-scroll scroll-smooth md:overflow-hidden md:p-6 justify-between shadow-sm shadow-amber-500'>
             <Menu>
                 <MenuButton className=" hover:bg-amber-500 hover:animate-pulse rounded-full data-[open]:bg-amber-500 border-transparent ring-0 focus:outline-none focus:border-transparent focus:ring-0">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -11,7 +11,7 @@ export default function Header() {
                     </svg>
                 </MenuButton>
 
-                <MenuItems anchor='bottom' className='text-white w-32 ml-1 md:ml-6 mt-4 rounded-lg border-white text-lg bg-blue-600 focus:border-transparent focus:outline-none focus:ring-0'>
+                <MenuItems anchor='bottom' className='text-white w-32 ml-1 md:ml-6 mt-4 rounded-lg border-white text-lg bg-blue-900 focus:border-transparent focus:outline-none focus:ring-0'>
                     <MenuItem>
                         <Link to='/' className="inline-flex gap-1 items-center data-[focus]:bg-amber-500">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
@@ -68,7 +68,7 @@ export default function Header() {
                 </svg>
                 </NavLink>
 
-                <div className="border-l-2 border-black"></div>
+                <div className="border-l-2 border-amber-500"></div>
 
                 <NavLink to='/about' className='inline-flex gap-1 hover:bg-amber-500 hover:animate-pulse rounded-full shadow-lg shadow-white md:aria-[current=page]:animate-bounce'>About
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -76,7 +76,7 @@ export default function Header() {
                 </svg>
                 </NavLink>
 
-                <div className="border-l-2 border-black"></div>
+                <div className="border-l-2 border-amber-500"></div>
 
                 <NavLink to='/qualifications' className='inline-flex gap-1 hover:bg-amber-500 hover:animate-pulse rounded-full shadow-lg shadow-white md:aria-[current=page]:animate-bounce'>Qualifications
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -84,7 +84,7 @@ export default function Header() {
                 </svg>
                 </NavLink>
 
-                <div className="border-l-2 border-black"></div>
+                <div className="border-l-2 border-amber-500"></div>
 
                 <NavLink to='/experience' className='inline-flex gap-1 hover:bg-amber-500 hover:animate-pulse rounded-full shadow-lg shadow-white md:aria-[current=page]:animate-bounce'>Experience
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -92,7 +92,7 @@ export default function Header() {
                 </svg>
                 </NavLink>
 
-                <div className="border-l-2 border-black"></div>
+                <div className="border-l-2 border-amber-500"></div>
 
                 <NavLink to='/contact' className='inline-flex gap-1 hover:bg-amber-500 hover:animate-pulse rounded-full shadow-lg shadow-white md:aria-[current=page]:animate-bounce'>Contact
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">

@@ -5,9 +5,9 @@ export default function ExperiencePage() {
         <div className='min-h-screen max-w-full'>
 
         <div className='flex flex-col p-5 gap-3'>
-          <p className='text-5xl mb-4 '>Experience</p>
-          <p className='text-2xl italic border-0 border-b-2 border-black'>Work</p>
-          <p className='ps-2 pe-2 rounded-md shadow-md shadow-blue-600'>
+          <p className='text-5xl rounded-md bg-gradient-to-tl from-blue-900 mr-auto mb-4 '>Experience</p>
+          <p className='text-2xl italic border-0 border-b-2 border-amber-500'>Work</p>
+          <p className='ps-2 pe-2 bg-blue-900 bg-opacity-85 rounded-md shadow-md shadow-white'>
             
             <p className="flex font-medium text-lg justify-between">Customer Service Representative
                 <p className="italic font-medium">May 2022 – August 2022</p>
@@ -40,8 +40,8 @@ export default function ExperiencePage() {
 
           </p>
 
-          <p className='text-2xl italic border-0 border-b-2 border-black'>Projects</p>
-          <p className='ps-2 pe-2 rounded-md shadow-md shadow-blue-600'>
+          <p className='text-2xl italic border-0 border-b-2 border-amber-500'>Projects</p>
+          <p className='ps-2 pe-2 bg-blue-900 bg-opacity-85 rounded-md shadow-md shadow-white'>
 
             <p className="flex font-medium text-lg justify-between">Web Portfolio
                 <p className="italic font-medium">July 2024 - Present</p>
