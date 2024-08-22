@@ -37,8 +37,9 @@ export default function AboutPage () {
           </p>
         </div>
         
+        {/* md:px-2 md:h-[38rem] md:pb-0 md:pt-0   */}
 
-        <div className='px-5 py-20 -mt-24 md:px-2 md:h-[38rem] md:pb-0 md:pt-32 lg:h-[48rem] lg:mr-3'>
+        <div className='mx-5 -mt-24 md:mt-5 md:h-[32rem] lg:h-[48rem] lg:mr-3'>
           <Carousel pauseOnHover slideInterval={5000} className='relative'>
             <img className='lg:size-[46rem] '
             src={pic} 
