@@ -39,7 +39,7 @@ export default function AboutPage () {
         
 
         <div className='px-5 py-20 -mt-24 md:px-2 md:h-[38rem] md:pb-0 md:pt-32 lg:h-[48rem] lg:mr-3'>
-          <Carousel pauseOnHover sl slideInterval={5000} className='relative'>
+          <Carousel pauseOnHover slideInterval={5000} className='relative'>
             <img className='lg:size-[46rem] '
             src={pic} 
             alt='Brandon Redman'/>
