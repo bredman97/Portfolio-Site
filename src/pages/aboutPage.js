@@ -10,7 +10,7 @@ export default function AboutPage () {
 
     return (
 
-      <div className='min-h-screen md:h-screen max-w-full grid grid-rows-2 md:grid-cols-2'>
+      <div className='min-h-screen max-w-full grid grid-rows-2 md:grid-rows-none md:grid-cols-2'>
 
         <div className='flex flex-col p-5 gap-3'>
           <p className='text-5xl rounded-md bg-gradient-to-tl from-blue-900 mr-auto mb-4 '>Get To Know Me</p>
@@ -37,10 +37,9 @@ export default function AboutPage () {
           </p>
         </div>
         
-        {/* md:px-2 md:h-[38rem] md:pb-0 md:pt-0   */}
 
-        <div className='mx-5 -mt-24 md:mt-5 md:h-[32rem] lg:h-[48rem] lg:mr-3'>
-          <Carousel pauseOnHover slideInterval={5000} className='relative'>
+        <div className='mx-5 -mt-24 md:mt-5 md:h-[36rem] lg:h-[48rem] lg:mr-3'>
+          <Carousel pauseOnHover slideInterval={4000} className=''>
             <img className='lg:size-[46rem] '
             src={pic} 
             alt='Brandon Redman'/>

@@ -6,7 +6,7 @@ export default function IndexPage() {
 
     return (
         
-        <div className="flex h-screen">
+        <div className="flex min-h-screen">
             <div className="flex flex-col bg-gradient-to-tl from-blue-900 rounded-lg  items-center justify-center mx-auto my-auto pb-4">
                 <p className="text-5xl pb-3 md:text-8xl md:pb-5">Brandon Redman</p>
                 <p className="text-md md:text-2xl font-light italic">Aspiring Network & CyberSecurity Engineer</p>
