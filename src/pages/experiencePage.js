@@ -59,7 +59,7 @@ export default function ExperiencePage() {
 
             <ul className="mb-3 list-inside list-disc font-light italic ">
                 <li>Configured a network with Cisco routers acting as sites and switches using Professors topology guide and instructions.</li>
-                <li>Configured Spanning-Tree, VTP, HSRPv2, MPLS, DMVPN Phase 3, Eigrp Routing and NTP Servers.</li>
+                <li>Implemented Spanning-Tree, VTP, HSRPv2, MPLS, DMVPN Phase 3, EIGRP Routing and NTP Servers.</li>
             </ul>
 
             <p className="flex font-medium text-lg justify-between">Networking I Case Study
@@ -69,8 +69,8 @@ export default function ExperiencePage() {
             <ul className="list-inside list-disc font-light italic text-balance">
                 <li>Configured a network with two Cisco routers as core routers, one as an edge router, another as an isp and switches using Professors topology guide and instructions.</li>
                 <li>Designed a hierarchical IPv4 and IPv6 addressing scheme for all network devices.</li>
-                <li>Network routed using Eigrp Named Mode, OSPFv3, MP-BGP. </li>
-                <li>Configured DHCP, PBR, Summarization, Redistribution, Static NAT, PAT.</li>
+                <li>Enabled routing using EIGRP Named Mode, OSPFv3, MP-BGP. </li>
+                <li>Implemented DHCP, PBR, Summarization, Redistribution, Static NAT, PAT.</li>
             </ul>
 
 
